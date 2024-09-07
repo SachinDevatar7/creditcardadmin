@@ -1,0 +1,65 @@
+{
+    "creditcards": [
+        {
+            "id": 1,
+            "cardName": "Bank of America - Platinum Card",
+            "bankName": "Bank of America",
+            "description": "Bank of America offers customers with variety of options",
+            "maxCredit": 8000,
+            "active": true,
+            "annulFee": 0,
+            "interestRate": 13.5,
+            "introOffer": 200,
+            "recommededCreditScore": "600-800",
+            "numberOfApplication": 40,
+            "createdDate": "28-08-2023",
+            "termsAndConditions": "The following conditions are applicable for this card"
+        },
+        {
+            "id": 2,
+            "cardName": "Discover- Silver Card",
+            "bankName": "Discover",
+            "description": "Discover offers customers with variety of options",
+            "maxCredit": 8000,
+            "active": true,
+            "annulFee": 0,
+            "interestRate": 13.5,
+            "introOffer": 200,
+            "recommededCreditScore": "600-800",
+            "numberOfApplication": 40,
+            "createdDate": "28-08-2023",
+            "termsAndConditions": "The following conditions are applicable for this card"
+        },
+        {
+            "id": 3,
+            "cardName": "AMEX - Gold Card",
+            "bankName": "AMEX",
+            "description": "AMEX offers customers with variety of options",
+            "maxCredit": 8000,
+            "active": true,
+            "annulFee": 0,
+            "interestRate": 13.5,
+            "introOffer": 200,
+            "recommededCreditScore": "600-800",
+            "numberOfApplication": 40,
+            "createdDate": "28-08-2023",
+            "termsAndConditions": "The following conditions are applicable for this card"
+        },
+        {
+            "id": 4,
+            "cardName": "Chase - Bronze Card",
+            "bankName": "Chase",
+            "description": "Chase offers customers with variety of options",
+            "maxCredit": 8000,
+            "active": true,
+            "annulFee": 0,
+            "interestRate": 13.5,
+            "introOffer": 200,
+            "recommededCreditScore": "600-800",
+            "numberOfApplication": 40,
+            "createdDate": "28-08-2023",
+            "termsAndConditions": "The following conditions are applicable for this card"
+        }
+
+    ]
+}
