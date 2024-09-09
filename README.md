@@ -28,9 +28,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Module Structure
 
-Creditcards - Module
-    Routing
-    AddCreditCard
-    ViewCreditCard
-    DeleteCreditCard
-    EditCreditCard
+# Creditcards Module
+
+- **Module**
+   - **Routing**
+     - AddCreditCard
+     - ViewCreditCard
+     - DeleteCreditCard
+     - EditCreditCard
+
+
+
