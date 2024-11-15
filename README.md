@@ -38,4 +38,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
      - EditCreditCard
 
 
+# Start JSON Server
+
+json-server --watch db.json
+
 
