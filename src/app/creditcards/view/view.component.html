@@ -1,1 +1,24 @@
-<p>view works!</p>
+<!-- You will see this error as very common -->
+<!-- Reason: The data is not available when the view was render -->
+<!-- TypeError: Cannot read properties of undefined (reading 'id') -->
+<!-- <h1>Credit Card Details</h1>
+
+<div> 
+    {{creditCardDetails.id}}
+    {{creditCardDetails.name}}
+</div> -->
+
+<mat-card class="mat-card">
+  <h1>Credit Card Details</h1>
+
+  <ng-container *ngIf="creditCardDetails">
+    <div>{{ creditCardDetails.id }}</div>
+    <div>{{ creditCardDetails.name }}</div>
+    <div>{{ creditCardDetails.description }}</div>
+    <div>{{ creditCardDetails.bankName }}</div>
+    <div>{{ creditCardDetails.maxCredit }}</div>
+    <div>{{ creditCardDetails.interestRate }}</div>
+    <div>{{ creditCardDetails.active }}</div>
+    <div>{{ creditCardDetails.recommendedScore }}</div>
+  </ng-container>
+</mat-card>

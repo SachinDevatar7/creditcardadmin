@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CreditCard } from 'src/app/models/credit-card';
+import { CreditcardsService } from 'src/app/services/creditcards.service';
 
 @Component({
   selector: 'app-view',
@@ -6,5 +8,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./view.component.scss']
 })
 export class ViewComponent {
+
+  creditCardDetails!: CreditCard;
+
+  constructor(private creditCardService: CreditcardsService){
+    this.creditCardService.getCreditCardById(3).subscribe((data: CreditCard) => {
+      this.creditCardDetails = data;
+      console.log("HELLLLLLLOOOOOO", this.creditCardDetails)
+    })
+  }
+
 
 }
